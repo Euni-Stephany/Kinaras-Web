@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap");
+.bag-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+.bag-content-title h2{
+    text-align: center;
+    margin-bottom: 0;
+}
+.bag-content-icon img {
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin: 0 auto; /* Untuk mengatur gambar agar berada di tengah secara horizontal */
+}
+.bag-content-box p{
+    font-family: 'Jost';
+    text-align: center;
+    margin-top: -50px;
+}
+.bag-btn-shopnow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Atur jarak di atas tombol */
+    width: 100%;
+}
+.btn-shopnow-bag {
+    padding: 10px 20px;
+    width: 25%;
+    background-color: var(--second-color); /* Ubah warna latar belakang tombol sesuai kebutuhan */
+    color: #fff; /* Ubah warna teks tombol sesuai kebutuhan */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-shopnow-bag:hover {
+    color: #CEA0AA;
+    border: 1px solid #CEA0AA;
+    background-color: #ffffff;/* Ubah warna latar belakang tombol saat hover sesuai kebutuhan */
+}

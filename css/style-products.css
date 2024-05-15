@@ -1,0 +1,68 @@
+.products-content{
+    margin-top: 40px;
+}
+.products-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.products-box{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.row-img-products img{
+    margin: 5px ;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.product-name{
+    text-align: center;
+    margin: 0;
+}
+.detail-row{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -7px;
+}
+.stars-products a{
+    justify-content: center;
+    color: var(--other-color);
+    margin-top: 0;
+    margin-right: 5px;
+}
+.btn-product{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-add-to{
+    padding-left: 8%;
+    padding-right: 8%;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    background-color: var(--other-pink);
+    text-align: center;
+    display: flex;
+    width: 60%;
+    height: auto;
+}
+.btn-add-to input[type="button"] {
+    border: none; /* Menghilangkan border */
+    background-color: transparent; /* Menghilangkan warna latar belakang */
+    margin-left: 2px;
+}
+.btn-add-to:hover {
+    transform: translateY(-5px) scale(1.1);
+    background-color: var(--second-color); /* Mengubah warna latar belakang saat hover */
+    color: var(--other-pink); /* Mengubah warna teks saat hover */
+    border: 1px solid var(--other-color);
+    cursor:pointer;
+}
+.btn-add-to input[type="button"]:hover{
+    color: var(--other-pink);
+    cursor:pointer;
+}
